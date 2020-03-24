@@ -8,7 +8,7 @@
     android:paddingBottom="16dp"
     android:paddingLeft="64dp"
     android:paddingRight="64dp"
-    android:background="@drawable/modificado"
+    android:background="@color/colorAccent"
     tools:context=".SplashActivity">
 
     <ImageView
@@ -25,7 +25,7 @@
         android:id="@+id/txtRuta"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="70dp"
+        android:textSize="90dp"
         android:text="RUTAS"
         android:layout_centerHorizontal="true"
         android:paddingTop="15dp"

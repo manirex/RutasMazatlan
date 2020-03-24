@@ -13,11 +13,11 @@ import android.widget.TextView;
 
 public class SplashActivity extends AppCompatActivity {
 
-    private TextView TextoRuta;
-    private TextView TextoMzt;
+    //private TextView TextoRuta;
+    //private TextView TextoMzt;
 
-    private Typeface RedRockRuta;
-    private Typeface RedRockMzt;
+    //private Typeface RedRockRuta;
+    //private Typeface RedRockMzt;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,16 +32,16 @@ public class SplashActivity extends AppCompatActivity {
             decorView.setSystemUiVisibility(uiOptions);
         }
 /////////////////////////////////////LINEA FUENTES ////////////////////////////////////////////////////////////
-        String fuente1 = "fonts/RedRock.ttf";
-        this.RedRockRuta = Typeface.createFromAsset(getAssets(), fuente1);
+     //   String fuente1 = "fonts/RedRock.ttf";
+      //  this.RedRockRuta = Typeface.createFromAsset(getAssets(), fuente1);
 
-        String fuente2 = "fonts/RedRock.ttf";
-        this.RedRockMzt = Typeface.createFromAsset(getAssets(), fuente2);
+        //String fuente2 = "fonts/RedRock.ttf";
+        //this.RedRockMzt = Typeface.createFromAsset(getAssets(), fuente2);
 
-        TextoRuta = (TextView) findViewById(R.id.txtRuta);
-        TextoRuta.setTypeface(RedRockRuta);
-        TextoMzt= (TextView) findViewById(R.id.txtMzt);
-        TextoMzt.setTypeface(RedRockMzt);
+       // TextoRuta = (TextView) findViewById(R.id.txtRuta);
+        //TextoRuta.setTypeface(RedRockRuta);
+        //TextoMzt= (TextView) findViewById(R.id.txtMzt);
+        //TextoMzt.setTypeface(RedRockMzt);
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////
         new Handler().postDelayed(new Runnable() {
             @Override
