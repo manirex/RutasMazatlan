@@ -23,7 +23,7 @@ public class SplashActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
 
-        if (Build.VERSION.SDK_INT >= 16) { //CHEQUEO DE LA API
+        if (Build.VERSION.SDK_INT >= 16) { //CHEQUEO DE LA API prueba
             getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,  // FULL SCREEN
                     WindowManager.LayoutParams.FLAG_FULLSCREEN);
             View decorView = getWindow().getDecorView();
